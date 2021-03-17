@@ -24,6 +24,13 @@ body {
 .section1 .nav_main_button button.btn.btn-outline-secondary:hover{
     color: #ea4a49!important;
 }
+.section1 .sc1_text_img {
+    background-image: url("../images/sc1text.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    background-position: left;
+}
 /* .section2 css starts from here */
 .section2 .inside_section2_container , .section3 .inside_section2_container , .section4 .inside_section2_container {
   backdrop-filter: blur(30px);
@@ -182,6 +189,13 @@ body {
     .section9 .bg_section9_image{
         height: 300px;
     }
+}
+.section9 .bg_s9_text {
+    background-image: url("../images/SERVICES@3x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    background-position: left;
 }
 /* section 11 */
 .section11{
