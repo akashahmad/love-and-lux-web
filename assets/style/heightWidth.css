@@ -1,3 +1,6 @@
+.h_10{
+    height: 10px;
+}
 .h_20{
     height: 20px;
 }
@@ -24,4 +27,9 @@
 }
 .h_120{
     height: 120px;
+}
+
+/* width */
+.w_10{
+    width: 10px;
 }

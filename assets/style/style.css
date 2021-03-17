@@ -85,12 +85,34 @@ body {
     background-repeat: no-repeat;
 }
 /* .section 5 css starts from here */
+.section5{
+    background-color: #f7f7f7;;
+}
 .section5 .background_image_s5{
     background-image: url("../images/ammie-ngo-vcu-OZBxxRk-unsplash@3x.png");
     background-size: cover;
     background-position: center;
     height: 900px;
     background-repeat: no-repeat;
+}
+.section5 .bg_s12_text{
+    background-image: url("../images/Blogs@3x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    background-position: center;
+}
+.section5 .hr_dotted{
+    border: 1px dashed #95a6b4;
+    height: 1px;
+}
+.section5 .hr_mobile{
+    border-right: 1px dashed #95a6b4;
+    height: 50px;
+    margin: 0px 4px 0px 0px;
+}
+.section5 .button_container button{
+    background-color: #f36732!important;
 }
 /* section7 css starts from here */
 .section7 .bg_image_7a{
@@ -302,3 +324,17 @@ body {
 .cursor-pointer{
     cursor: pointer;
 }
+.section17{
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* height: 350px; */
+}
+
+/* @media (max-width: 767px) and (min-width: 320px) {
+.section13 .bg_image_s13{
+    height: 200px;
+} */
+/* } */
