@@ -264,7 +264,26 @@ body {
 .section15 .button_container button{
     background-color: #f36732!important;
 }
-
+/* section16 */
+.section16 .bg_s12_text{
+    background-image: url("../images/FAQ@3x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    background-position: center;
+}
+.section16 .card-header{
+    border-bottom: none;
+}
+.section16 .card{
+    border: none;
+}
+.section16 .collaps_container{
+  border-radius: 26px;
+  box-shadow: 9px 7px 19px 0 rgb(211 211 211 / 16%);
+  background-color: #ffffff;
+  border: none!important;
+}
 /* common */
 .cursor-pointer{
     cursor: pointer;
