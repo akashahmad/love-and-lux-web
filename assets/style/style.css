@@ -14,9 +14,12 @@ body {
   box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.15);
   background-color: #f7f7f7;
 }
+.section1 .nav_logo img {
+  height: 150px;
+}
 @media (max-width: 500px) and (min-width: 320px) {
   .section1 .nav_logo img {
-    height: 60px !important;
+    height: 50px !important;
   }
 }
 .section1 .nav_main_button button.btn.btn-outline-secondary {
@@ -66,7 +69,14 @@ body {
   height: 400px;
   background-repeat: no-repeat;
 }
-
+.section2 .bg_s2_text {
+  background-image: url("../images/Travel@3x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 200px;
+  background-position: left;
+}
 /* section3 css starts from here */
 .section3 .background_image_3a {
   background-image: url("../images/Rectangle@3x(2).png");
@@ -81,6 +91,14 @@ body {
   width: 100%;
   height: 400px;
   background-repeat: no-repeat;
+}
+.section3 .bg_s3_text {
+  background-image: url("../images/LIFE@3x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 200px;
+  background-position: center;
 }
 /* section4 css starts from here */
 .section4 .background_image_2a {
@@ -97,6 +115,14 @@ body {
   height: 400px;
   background-repeat: no-repeat;
 }
+.section4 .bg_s3_text {
+    background-image: url("../images/Health@3x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    width: 200px;
+    background-position: center;
+  }
 /* .section 5 css starts from here */
 .section5 {
   background-color: #f7f7f7;
@@ -250,15 +276,20 @@ body {
   height: 150px;
   background-position: left;
 }
+.section9 button.btn.btn.btn-outline-secondary :focus{
+    color: #fff!important;
+    background-color: #6c757d!important;
+    border-color: #6c757d!important;
+}
 /* section 10 css starts from here */
 .section10 .s10_border {
   border-right: 1px solid #c5d0d8;
 }
 @media (max-width: 991px) and (min-width: 320px) {
-    .section10 .s10_border {
-        border-right:none;
-        border-bottom: 1px solid #c5d0d8;
-    }      
+  .section10 .s10_border {
+    border-right: none;
+    border-bottom: 1px solid #c5d0d8;
+  }
 }
 /* section 11 */
 .section11 {
@@ -272,9 +303,16 @@ body {
   height: 400px;
   background-position: top;
 }
-.section11 .section11_bg_image  .inside_image{
-    background: #2d2d2d;
+.section11 .section11_bg_image .inside_image {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
 }
+.section11 .section11_bg_image .inside_image:hover {
+    background: none;
+}
+
 @media (max-width: 767px) and (min-width: 320px) {
   .section11 .section11_bg_image {
     height: 300px;
@@ -315,6 +353,98 @@ body {
   background-size: contain;
   height: 150px;
   background-position: center;
+  background-position: center;
+}
+.section12 .bg_s12_a{
+    background: url("../images/72676@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_b{
+    background: url("../images/photo_2018-11-05_23-52-41@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_c{
+    background: url("../images/4444444@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_d{
+    background: url("../images/111@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_e{
+    background: url("../images/222@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_f{
+    background: url("../images/7272@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_g{
+    background: url("../images/hasan1@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_h{
+    background: url("../images/22222.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_i{
+    background: url("../images/2676@3x(1).png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .bg_s12_j{
+    background: url("../images/23423@3x.png");
+    background-size: contain;
+    width: 75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section12 .inside_img_a img{
+    display: none;
+}
+.section12 .inside_img_a:hover{
+    display: block!important;
+    cursor: pointer;
+    background:rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 /* section 13 css starts from here */
 .section13 {
@@ -356,6 +486,7 @@ body {
   position: absolute;
   top: 31%;
   right: 10%;
+  height: 60%;
 }
 .section_14 .s14_carousal_item_container {
   background-color: #f5f5f5;
@@ -363,7 +494,7 @@ body {
 }
 .section_14 .s14_carousal_item_container .bg_s14_c1 {
   background-image: url("../images/stil--837JygbCJo-unsplash@3x.png");
-  height: 260px;
+  height: 370px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -372,7 +503,7 @@ body {
 }
 .section_14 .s14_carousal_item_container .bg_s14_c2 {
   background-image: url("../images/tabitha-turner-KSjlv6TIZGg-unsplash@3x.png");
-  height: 260px;
+  height: 370px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
