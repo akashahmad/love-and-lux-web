@@ -32,6 +32,10 @@
     height: 150px;
 }
 
+/* percent heights */
+.h_70p{
+    height: 70%;
+}
 /* width */
 .w_10{
     width: 10px;
