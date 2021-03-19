@@ -276,6 +276,12 @@ body {
   height: 150px;
   background-position: left;
 }
+.section9 .button_container_s9 button{
+  border: 1px solid rgb(52, 58, 64);
+  background: white;
+  padding: 4px 0px 4px 0px;
+  color: #343a40;
+}
 .section9 button.btn.btn.btn-outline-secondary :focus{
     color: #fff!important;
     background-color: #6c757d!important;
