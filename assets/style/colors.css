@@ -1,6 +1,12 @@
-.red_color{
-    color: #ea4a49;
+.red_color {
+  color: #ea4a49;
 }
-.bg_black{
-    background-color: black!important;
+.light_blue {
+  color: #00b9cd;
+}
+.midNight_green {
+  color: #47727e;
+}
+.bg_black {
+  background-color: black !important;
 }

@@ -116,13 +116,13 @@ body {
   background-repeat: no-repeat;
 }
 .section4 .bg_s3_text {
-    background-image: url("../images/Health@3x.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 70px;
-    width: 200px;
-    background-position: center;
-  }
+  background-image: url("../images/Health@3x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 200px;
+  background-position: center;
+}
 /* .section 5 css starts from here */
 .section5 {
   background-color: #f7f7f7;
@@ -277,21 +277,21 @@ body {
   background-position: left;
 }
 @media (max-width: 991px) and (min-width: 320px) {
-  .section9 .button_container_s9 .buttons_main_container{
+  .section9 .button_container_s9 .buttons_main_container {
     display: flex;
     flex-direction: column;
   }
 }
-.section9 .button_container_s9 button{
+.section9 .button_container_s9 button {
   border: 1px solid rgb(52, 58, 64);
   background: white;
   padding: 4px 0px 4px 0px;
   color: #343a40;
 }
-.section9 button.btn.btn.btn-outline-secondary :focus{
-    color: #fff!important;
-    background-color: #6c757d!important;
-    border-color: #6c757d!important;
+.section9 button.btn.btn.btn-outline-secondary :focus {
+  color: #fff !important;
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
 }
 /* section 10 css starts from here */
 .section10 .s10_border {
@@ -316,13 +316,13 @@ body {
   background-position: top;
 }
 .section11 .section11_bg_image .inside_image {
-    background: rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 .section11 .section11_bg_image .inside_image:hover {
-    background: none;
+  background: none;
 }
 
 @media (max-width: 767px) and (min-width: 320px) {
@@ -367,227 +367,227 @@ body {
   background-position: center;
   background-position: center;
 }
-.section12 .bg_s12_a{
-    background: url("../images/72676@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_a {
+  background: url("../images/72676@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_b{
-    background: url("../images/photo_2018-11-05_23-52-41@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_b {
+  background: url("../images/photo_2018-11-05_23-52-41@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_c{
-    background: url("../images/4444444@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_c {
+  background: url("../images/4444444@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_d{
-    background: url("../images/111@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_d {
+  background: url("../images/111@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_e{
-    background: url("../images/222@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_e {
+  background: url("../images/222@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_f{
-    background: url("../images/7272@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_f {
+  background: url("../images/7272@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_g{
-    background: url("../images/hasan1@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_g {
+  background: url("../images/hasan1@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_h{
-    background: url("../images/22222.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_h {
+  background: url("../images/22222.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_i{
-    background: url("../images/2676@3x(1).png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_i {
+  background: url("../images/2676@3x(1).png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section12 .bg_s12_j{
-    background: url("../images/23423@3x.png");
-    background-size: contain;
-    width: 75%;
-    height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
+.section12 .bg_s12_j {
+  background: url("../images/23423@3x.png");
+  background-size: contain;
+  width: 75%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* 1st  */
-.section12 .inside_img_a{
-    display: none;
+.section12 .inside_img_a {
+  display: none;
 }
 .section12 .bg_s12_a:hover .inside_img_a {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
-.section12 .inside_hover_button{
+.section12 .inside_hover_button {
   /* opacity: 0.8; */
   border-radius: 5px;
   /* background-color: #b4b4b4; */
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   margin: 0px 2px;
   padding: 2px 0px;
 }
-.section12  .inside_hover_button p{
-    font-size: 10px;
-    text-align: center;
+.section12 .inside_hover_button p {
+  font-size: 10px;
+  text-align: center;
 }
 /* 2nd  */
-.section12 .inside_img_b{
-    display: none;
+.section12 .inside_img_b {
+  display: none;
 }
 .section12 .bg_s12_b:hover .inside_img_b {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 3rd */
-.section12 .inside_img_c{
-    display: none;
+.section12 .inside_img_c {
+  display: none;
 }
 .section12 .bg_s12_c:hover .inside_img_c {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 4th  */
-.section12 .inside_img_d{
-    display: none;
+.section12 .inside_img_d {
+  display: none;
 }
 .section12 .bg_s12_d:hover .inside_img_d {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 5th */
-.section12 .inside_img_e{
-    display: none;
+.section12 .inside_img_e {
+  display: none;
 }
 .section12 .bg_s12_e:hover .inside_img_e {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 6th */
-.section12 .inside_img_f{
-    display: none;
+.section12 .inside_img_f {
+  display: none;
 }
 .section12 .bg_s12_f:hover .inside_img_f {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 7th */
-.section12 .inside_img_g{
-    display: none;
+.section12 .inside_img_g {
+  display: none;
 }
 .section12 .bg_s12_g:hover .inside_img_g {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 8th */
-.section12 .inside_img_h{
-    display: none;
+.section12 .inside_img_h {
+  display: none;
 }
 .section12 .bg_s12_h:hover .inside_img_h {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 9th */
-.section12 .inside_img_i{
-    display: none;
+.section12 .inside_img_i {
+  display: none;
 }
 .section12 .bg_s12_i:hover .inside_img_i {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* 10th */
-.section12 .inside_img_j{
-    display: none;
+.section12 .inside_img_j {
+  display: none;
 }
 .section12 .bg_s12_j:hover .inside_img_j {
-    display: block!important;
-    cursor: pointer;
-    background:rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 22px 0px 0px 0px;
+  display: block !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 22px 0px 0px 0px;
 }
 /* section 13 css starts from here */
 .section13 {
@@ -757,5 +757,94 @@ body {
   }
   .sidenav a {
     font-size: 18px;
+  }
+}
+
+/* second page css  */
+.main_container .member_page_imageContainer {
+  position: absolute;
+  right: 0;
+  top: -270px;
+}
+@media (max-width: 991px) and (min-width: 320px) {
+  .main_container .member_page_imageContainer {
+    position: initial;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    top: 0px;
+  }
+}
+.main_container .member_page_imageContainer img {
+  height: 500px;
+}
+@media (max-width: 991px) and (min-width: 320px) {
+  .main_container .member_page_imageContainer img {
+    height: 200px;
+  }
+}
+
+.section1 .nav_private_main_button button.btn.btn-outline-secondary {
+  border-radius: 46px !important;
+  box-shadow: 10px 10px 20px 0 rgb(0 0 0 / 11%);
+  border: solid 0.5px #ffffff !important;
+  background-color: #f8f8f8 !important;
+  font-size: 18px !important;
+  color: #ea4a49 !important;
+}
+.section1 .nav_private_main_button button.btn.btn-outline-secondary:hover {
+  background-color: #ea4a49 !important;
+  border: 1px solid #ea4a49 !important;
+  color: #fff !important;
+}
+
+/* section 2 css */
+.section5 .box_private_component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.section5 .bg_box_private_component {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section5 .box_private_component p{
+  font-size: 16px;
+}
+.section5 .section2_private_bg {
+  background-image: url("../images/water.png");
+  background-size: cover;
+  width: 100%;
+  height: 540px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 684px) and (min-width: 320px) {
+  .section5 .section2_private_bg {
+    height: 300px;
+  }
+}
+@media (max-width: 991px) and (min-width: 685px) {
+  .section5 .section2_private_bg {
+    height: 400px;
+  }
+}
+/* section 3 */
+.section5 .section3_private_bg {
+  background-image: url("../images/mountain.png");
+  background-size: cover;
+  width: 100%;
+  height: 540px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 684px) and (min-width: 320px) {
+  .section5 .section3_private_bg {
+    height: 260px;
+  }
+}
+@media (max-width: 991px) and (min-width: 685px) {
+  .section5 .section3_private_bg {
+    height: 400px;
   }
 }
