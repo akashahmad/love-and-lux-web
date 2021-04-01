@@ -810,11 +810,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.section5 .box_private_component p{
+.section5 .box_private_component p {
   font-size: 16px;
 }
 .section5 .section2_private_bg {
-  background-image: url("../images/water.png");
+  background-image: url("../images/water.jpg");
   background-size: cover;
   width: 100%;
   height: 540px;
@@ -832,7 +832,7 @@ body {
 }
 /* section 3 */
 .section5 .section3_private_bg {
-  background-image: url("../images/mountain.png");
+  background-image: url("../images/mountain22.jpg");
   background-size: cover;
   width: 100%;
   height: 540px;
@@ -847,4 +847,23 @@ body {
   .section5 .section3_private_bg {
     height: 400px;
   }
+}
+
+/* section4  */
+.section4 {
+  background: #f7f7f7;
+}
+.section4 .carousel-indicators li {
+  background: #ea4a49 !important;
+  border-radius: 50%;
+  height: 0px;
+  width: 20px;
+}
+/* section 5  */
+.section5 .bg_s2_text {
+  background-image: url("../images/Article.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  background-position: center;
 }
