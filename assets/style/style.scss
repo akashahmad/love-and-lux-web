@@ -919,3 +919,59 @@ body {
     }
   }
 }
+
+// signup and signin page css
+.authentication_page_container {
+  background-color: #f7f7f7;
+  .signup_content {
+    background-color: #fff;
+    .form_title {
+      border-left: 5px solid $red_colorVar;
+    }
+  }
+  .bg_login_img{
+    background-image: url("../images/Group-35.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 770px;
+  }
+  .login_absolute_div {
+    position: absolute;
+    z-index: 1;
+    left: -97px;
+    margin: -40px 0px 0px 0px;
+  }
+  .login_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-side_image img {
+    height: fit-content;
+  }
+  .signup_content .inputs_container .common_input {
+    // border: 2px solid #ececec;
+    outline: none;
+  }
+  .signup_content .inputs_container input {
+    outline: none;
+    // padding: 3px 5px;
+    border: 1px solid #fff;
+  }
+  #first_input {
+    border-left: 5px solid #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  #second_input {
+    border-left: 5px solid #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  #third_input {
+    border-left: 5px solid #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  #fourth_input {
+    border-left: 5px solid #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+}

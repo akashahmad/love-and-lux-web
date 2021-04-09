@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Document</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootsrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- jquery cloudflare  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div
+      class="authentication_page_container d-flex justify-content-center align-items-center py-5"
+    >
+      <div class="col-12 col-lg-9 col-xl-9 d-flex justify-content-between px-0">
+        <!-- left side -->
+        <div class="d-none d-lg-block d-xl-block col-5 px-0 left-side_image">
+          <div class="col-12 px-0">
+            <img src="./assets/images/Group-36.png" width="100%" />
+          </div>
+        </div>
+        <!-- right side -->
+        <div class="col-12 col-lg-7 col-xl-7 signup_content px-2 py-5">
+          <div class="text-center">
+            <h1>WELCOME TO LOVE & LUX</h1>
+            <p>join our community. This is free for 15 days</p>
+          </div>
+          <!-- form -->
+          <div class="d-flex justify-content-center">
+            <form class="col-12 col-lg-7 col-xl-7 py-5">
+              <!-- title -->
+              <div class="form_title px-4">
+                <h5 class="font-weight-bold">SIGNUP</h5>
+              </div>
+              <!-- inputs -->
+              <div class="col-12 px-0 inputs_container py-4">
+                <div
+                  onclick="getfocus()"
+                  id="first_input"
+                  class="common_input pt-1 rounded px-3"
+                >
+                  <label class="px-2">Full Name</label>
+                  <input class="w-100 px-2" id="input_container1" />
+                </div>
+                <div
+                  class="common_input pt-1 my-1 rounded px-3"
+                  onclick="getfocus2()"
+                  id="second_input"
+                >
+                  <label class="px-2">Email</label>
+                  <input class="w-100 px-2" id="input_container2" />
+                </div>
+                <div
+                  class="common_input pt-1 rounded px-3"
+                  onclick="getfocus3()"
+                  id="third_input"
+                >
+                  <label class="px-2">Password</label>
+                  <input class="w-100 px-2" id="input_container3" />
+                </div>
+                <div
+                  class="common_input pt-1 my- rounded px-3"
+                  onclick="getfocus4()"
+                  id="fourth_input"
+                >
+                  <label class="px-2">Confirm Password</label>
+                  <input class="w-100 px-2" id="input_container4" />
+                </div>
+                <!-- signup  text -->
+                <div class="d-flex justify-content-end align-items-center py-4">
+                  <h5 class="font-weight-bold px-2 m-0">SIGNUP</h5>
+                  <img src="./assets/images/login.png" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- login page link -->
+          <div class="px-2 px-lg-5 px-xl-5">
+            <p class="cursor-pointer">
+              I have an account?<span class="red_color"> Log in</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getfocus() {
+        // active
+        document.getElementById("input_container1").focus();
+        document.getElementById("first_input").style.boxShadow =
+          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
+        document.getElementById("first_input").style.borderLeft =
+          "5px solid #ea4a49";
+        // unactive
+        document.getElementById("input_container2").blur();
+        document.getElementById("second_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container3").blur();
+        document.getElementById("third_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container4").blur();
+        document.getElementById("fourth_input").style.borderLeft =
+          "5px solid #fff";
+
+        // boxShadow
+        document.getElementById("second_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("third_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("fourth_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+      }
+      function getfocus2() {
+        // active
+        document.getElementById("input_container2").focus();
+        document.getElementById("second_input").style.borderLeft =
+          "5px solid #ea4a49";
+        document.getElementById("second_input").style.boxShadow =
+          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
+        // unactive
+        document.getElementById("input_container1").blur();
+        document.getElementById("first_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container3").blur();
+        document.getElementById("third_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container4").blur();
+        document.getElementById("fourth_input").style.borderLeft =
+          "5px solid #fff";
+
+        // boxShadow
+        document.getElementById("first_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("third_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("fourth_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+      }
+      function getfocus3() {
+        // active
+        document.getElementById("input_container3").focus();
+        document.getElementById("third_input").style.borderLeft =
+          "5px solid #ea4a49";
+        document.getElementById("third_input").style.boxShadow =
+          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
+        // unactive
+        document.getElementById("input_container1").blur();
+        document.getElementById("first_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container2").blur();
+        document.getElementById("second_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container4").blur();
+        document.getElementById("fourth_input").style.borderLeft =
+          "5px solid #fff";
+        // boxShadow
+        document.getElementById("first_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("second_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("fourth_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+      }
+      function getfocus4() {
+        // active
+        document.getElementById("input_container4").focus();
+        document.getElementById("fourth_input").style.borderLeft =
+          "5px solid #ea4a49";
+        document.getElementById("fourth_input").style.boxShadow =
+          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
+        // unactive
+        document.getElementById("input_container1").blur();
+        document.getElementById("first_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container2").blur();
+        document.getElementById("second_input").style.borderLeft =
+          "5px solid #fff";
+        document.getElementById("input_container3").blur();
+        document.getElementById("third_input").style.borderLeft =
+          "5px solid #fff";
+
+        // boxShadow
+        document.getElementById("first_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("second_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+        document.getElementById("third_input").style.boxShadow =
+          "          0 .125rem .25rem rgba(0,0,0,.075)";
+      }
+    </script>
+  </body>
+</html>
