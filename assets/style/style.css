@@ -1,3 +1,18 @@
+/* including Avenir font */
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("../fonts/avenir/AvenirLTStd-Black.otf");
+}
+.Avenir-bold {
+  font-family: "Avenir-bold";
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir/AvenirLTStd-Book.otf");
+}
+.Avenir {
+  font-family: "Avenir";
+}
 .red_color {
   color: #ea4a49;
 }
@@ -73,7 +88,14 @@ body {
 }
 
 .main_container {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), color-stop(46%, #fafafa), to(#ffffff));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fafafa),
+    color-stop(46%, #fafafa),
+    to(#ffffff)
+  );
   background-image: linear-gradient(to bottom, #fafafa, #fafafa 46%, #ffffff);
 }
 
@@ -106,7 +128,7 @@ body {
 .section1 {
   border-radius: 30px;
   -webkit-box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.15);
   background-color: #f7f7f7;
 }
 
@@ -137,7 +159,7 @@ body {
   padding: 5px 8px 5px 10px;
   border-radius: 30px;
   -webkit-box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.15);
   background-color: #f8f8f8;
 }
 
@@ -157,9 +179,9 @@ body {
 
 .section2 .inside_section2_container {
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   -webkit-box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
-          box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
+  box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
   background-color: #f7f7f7;
   border-radius: 30px;
 }
@@ -191,9 +213,9 @@ body {
 
 .section3 .inside_section2_container {
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   -webkit-box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
-          box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
+  box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
   background-color: #f7f7f7;
   border-radius: 30px;
 }
@@ -229,9 +251,9 @@ body {
 
 .section4 .inside_section2_container {
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   -webkit-box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
-          box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
+  box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
   background-color: #f7f7f7;
   border-radius: 30px;
 }
@@ -309,14 +331,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .section5 .box_private_component p {
@@ -329,11 +351,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .section5 .section2_private_bg {
@@ -410,9 +432,9 @@ body {
 
 .section9 .inside_section9_container {
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   -webkit-box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
-          box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
+  box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
   background-color: #fff;
   border-radius: 30px;
 }
@@ -449,9 +471,9 @@ body {
 
 .section12 .inside_s11_container {
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   -webkit-box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
-          box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
+  box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
   background-color: #fff;
   border-radius: 30px;
 }
@@ -709,9 +731,9 @@ body {
 
 .section14 .inside_s11_container {
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   -webkit-box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
-          box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
+  box-shadow: 0 0 99px 0 rgba(65, 65, 65, 0.15);
   background-color: #fff;
   border-radius: 30px;
 }
@@ -767,8 +789,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   margin: -30px;
   width: 100%;
 }
@@ -998,8 +1020,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .section10 .s10_border {
     border-right: none;
@@ -1011,8 +1033,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     right: 0;
     top: 0px;
   }
@@ -1025,8 +1047,8 @@ body {
   .section11 .button_container_s11 {
     position: relative !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     margin: 0px !important;
   }
 }
@@ -1068,6 +1090,16 @@ body {
 
 .authentication_page_container .signup_content .form_title {
   border-left: 5px solid #ea4a49;
+  font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #000000;
+    padding-left: 32px;
+    font-family: Avenir-bold;
 }
 
 .authentication_page_container .bg_login_img {
@@ -1090,19 +1122,39 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.authentication_page_container .left-side_image img {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+.authentication_page_container .left-side_image {
+background-image: url("../images/Group-36.png");
+background-repeat: no-repeat;
+background-size: cover;
 }
-
+.authentication_page_container .signup_content .heading{
+  font-family: Avenir-bold;
+  font-size: 35px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.authentication_page_container .signup_content .desc{
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
 .authentication_page_container .signup_content .inputs_container .common_input {
   outline: none;
 }
@@ -1115,24 +1167,349 @@ body {
 .authentication_page_container #first_input {
   border-left: 5px solid #fff;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 .authentication_page_container #second_input {
   border-left: 5px solid #fff;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 .authentication_page_container #third_input {
   border-left: 5px solid #fff;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 .authentication_page_container #fourth_input {
   border-left: 5px solid #fff;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+/* css for login page */
+.auth_page_container {
+  height: 100vh;
+}
+.auth_page_container .white_container {
+  background-color: #ffffff;
+  box-shadow: 0 3px 80px 0 rgba(0, 0, 0, 0.1);
+}
+.auth_page_container .white_container .content_section {
+  width: 80%;
+}
+@media (max-width:479px) {
+  .auth_page_container .white_container .content_section {
+    width: 100%;
+  }
+}
+.auth_page_container .white_container .logo {
+  width: 310px;
+  margin: 0 auto;
+}
+.auth_page_container .white_container .modal_heading {
+  border-left: 8px solid #ea4a49;
+  margin-bottom: 32px;
+}
+.auth_page_container .white_container .modal_heading span {
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #000000;
+  padding-left: 32px;
+  font-family: Avenir-bold;
+}
+/* Styling for generall Input */
+.general_input {
+  padding: 10px;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+.general_input .label_div {
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 31px;
+  position: absolute;
+}
+.general_input .forget {
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 31px;
+  position: absolute;
+}
+.general_input .forget a {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 0;
+  opacity: 0.3;
+}
+.general_input input {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Avenir;
+  color: #707070;
+}
+.general_input input:focus {
+  outline: none;
+}
+.general_input label {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 0;
+}
+/* Styling for active input */
+.active_input {
+  padding: 10px;
+  padding-left: 26px;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  border-left: 6px solid #ea4a49 ;
+}
+.active_input .label_div {
+  display: flex;
+  align-items: center;
+  /* padding-left: 31px; */
+  position: absolute;
+}
+.active_input .forget {
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 31px;
+  position: absolute;
+  display: none
+}
+.active_input .forget a {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 0;
+  opacity: 0.3;
+}
+.active_input input {
+  padding: 20px 10px 0 0;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Avenir;
+  color: #707070;
+  
+}
+.active_input input:focus {
+  outline: none;
+}
+.active_input label {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 0;
+}
+/* styling for filled input */
+/* Styling for active input */
+.filled_input {
+  padding: 10px;
+  padding-left: 26px;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  
+}
+.filled_input .label_div {
+  display: flex;
+  align-items: center;
+  /* padding-left: 31px; */
+  position: absolute;
+}
+.filled_input .forget {
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 31px;
+  position: absolute;
+  display: none
+}
+.filled_input .forget a {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 0;
+  opacity: 0.3;
+}
+.filled_input input {
+  padding: 20px 10px 0 0;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Avenir;
+  color: #707070;
+  
+}
+.filled_input input:focus {
+  outline: none;
+}
+.filled_input label {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 0;
+}
+.custom_submit_action{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.custom_submit_action span{
+  font-family: Avenir-bold;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.login_page_container{
+  padding-bottom: 139px;
+}
+.login_left_absolute{
+  background-image: url(../images/Group-35.png);
+  width: 429px;
+  position: absolute;
+  left: -200px;
+  bottom: 30px;
+  top: -30px;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.login_left_absolute .heading{
+  font-family: Avenir;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.login_left_absolute .desc{
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 108px;
+}
+.login_left_absolute .link{
+  opacity: 0.8;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-bottom: 75px;
+}
+.login_left_absolute .link a{
+  color: #ea4a49!important;
+
+}
+.forget_left_absolute{
+  background-image: url(../images/loveLuxLeftPose.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 725px;
+    top: -25px;
+    bottom: -25px;
+    left: 454px;
+
+}
+.split-image{
+  width: 320px;
+  right: -185px;
+  position: absolute;
+  top: 97px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -27,180 +27,117 @@
     <div
       class="authentication_page_container d-flex justify-content-center align-items-center py-5"
     >
-      <div class="col-12 col-lg-9 col-xl-9 d-flex justify-content-between px-0">
+      <div class="container d-flex justify-content-between px-0">
         <!-- left side -->
-        <div class="d-none d-lg-block d-xl-block col-5 px-0 left-side_image">
-          <div class="col-12 px-0">
-            <img src="./assets/images/Group-36.png" width="100%" />
-          </div>
-        </div>
+        <div
+          class="d-none d-lg-block d-xl-block col-5 px-0 left-side_image"
+        ></div>
         <!-- right side -->
         <div class="col-12 col-lg-7 col-xl-7 signup_content px-2 py-5">
           <div class="text-center">
-            <h1>WELCOME TO LOVE & LUX</h1>
-            <p>join our community. This is free for 15 days</p>
+            <h1 class="heading">WELCOME TO LOVE & LUX</h1>
+            <p class="desc">Join our community This is Free for 15 days</p>
           </div>
           <!-- form -->
           <div class="d-flex justify-content-center">
-            <form class="col-12 col-lg-7 col-xl-7 py-5">
+            <form class="col-12 col-lg-7 col-xl-7 pt-5">
               <!-- title -->
               <div class="form_title px-4">
-                <h5 class="font-weight-bold">SIGNUP</h5>
+                <h5 class="font-weight-bold ">SIGNUP</h5>
               </div>
               <!-- inputs -->
               <div class="col-12 px-0 inputs_container py-4">
-                <div
-                  onclick="getfocus()"
-                  id="first_input"
-                  class="common_input pt-1 rounded px-3"
-                >
-                  <label class="px-2">Full Name</label>
-                  <input class="w-100 px-2" id="input_container1" />
+                <div class="general_input mb-1" onclick="InputsHandler(this)">
+                  <div class="label_div">
+                    <label for="fullname">Full Name</label>
+                  </div>
+                  <input type="text" id="fullname" />
                 </div>
-                <div
-                  class="common_input pt-1 my-1 rounded px-3"
-                  onclick="getfocus2()"
-                  id="second_input"
-                >
-                  <label class="px-2">Email</label>
-                  <input class="w-100 px-2" id="input_container2" />
+                <div class="general_input mb-1" onclick="InputsHandler(this)">
+                  <div class="label_div">
+                    <label for="email">Email</label>
+                  </div>
+                  <input type="text" id="email" />
                 </div>
-                <div
-                  class="common_input pt-1 rounded px-3"
-                  onclick="getfocus3()"
-                  id="third_input"
-                >
-                  <label class="px-2">Password</label>
-                  <input class="w-100 px-2" id="input_container3" />
+                <div class="general_input mb-1" onclick="InputsHandler(this)">
+                  <div class="label_div">
+                    <label for="password">PASSWORD</label>
+                  </div>
+                  <div class="forget">
+                    <a href="/">See?</a>
+                  </div>
+                  <input type="password" id="password" />
                 </div>
-                <div
-                  class="common_input pt-1 my- rounded px-3"
-                  onclick="getfocus4()"
-                  id="fourth_input"
-                >
-                  <label class="px-2">Confirm Password</label>
-                  <input class="w-100 px-2" id="input_container4" />
+                <div class="general_input mb-1" onclick="InputsHandler(this)">
+                  <div class="label_div">
+                    <label for="repeatPassword">CONFIRM-PASSWORD</label>
+                  </div>
+                  <div class="forget">
+                    <a href="/">See?</a>
+                  </div>
+                  <input type="password" id="repeatPassword" />
                 </div>
-                <!-- signup  text -->
-                <div class="d-flex justify-content-end align-items-center py-4">
-                  <h5 class="font-weight-bold px-2 m-0">SIGNUP</h5>
+                <div class="custom_submit_action " style="margin-top: 40px;">
+                  <span>SIGNUP</span>
                   <img src="./assets/images/login.png" />
                 </div>
+              
               </div>
             </form>
           </div>
           <!-- login page link -->
           <div class="px-2 px-lg-5 px-xl-5">
-            <p class="cursor-pointer">
-              I have an account?<span class="red_color"> Log in</span>
+            <p class="cursor-pointer Avenir">
+              I have an account? <span class="red_color">Log In</span>
             </p>
           </div>
         </div>
       </div>
     </div>
     <script>
-      function getfocus() {
-        // active
-        document.getElementById("input_container1").focus();
-        document.getElementById("first_input").style.boxShadow =
-          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
-        document.getElementById("first_input").style.borderLeft =
-          "5px solid #ea4a49";
-        // unactive
-        document.getElementById("input_container2").blur();
-        document.getElementById("second_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container3").blur();
-        document.getElementById("third_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container4").blur();
-        document.getElementById("fourth_input").style.borderLeft =
-          "5px solid #fff";
-
-        // boxShadow
-        document.getElementById("second_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("third_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("fourth_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-      }
-      function getfocus2() {
-        // active
-        document.getElementById("input_container2").focus();
-        document.getElementById("second_input").style.borderLeft =
-          "5px solid #ea4a49";
-        document.getElementById("second_input").style.boxShadow =
-          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
-        // unactive
-        document.getElementById("input_container1").blur();
-        document.getElementById("first_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container3").blur();
-        document.getElementById("third_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container4").blur();
-        document.getElementById("fourth_input").style.borderLeft =
-          "5px solid #fff";
-
-        // boxShadow
-        document.getElementById("first_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("third_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("fourth_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-      }
-      function getfocus3() {
-        // active
-        document.getElementById("input_container3").focus();
-        document.getElementById("third_input").style.borderLeft =
-          "5px solid #ea4a49";
-        document.getElementById("third_input").style.boxShadow =
-          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
-        // unactive
-        document.getElementById("input_container1").blur();
-        document.getElementById("first_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container2").blur();
-        document.getElementById("second_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container4").blur();
-        document.getElementById("fourth_input").style.borderLeft =
-          "5px solid #fff";
-        // boxShadow
-        document.getElementById("first_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("second_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("fourth_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-      }
-      function getfocus4() {
-        // active
-        document.getElementById("input_container4").focus();
-        document.getElementById("fourth_input").style.borderLeft =
-          "5px solid #ea4a49";
-        document.getElementById("fourth_input").style.boxShadow =
-          "0 12px 40px 0 rgba(0, 0, 0, 0.08)";
-        // unactive
-        document.getElementById("input_container1").blur();
-        document.getElementById("first_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container2").blur();
-        document.getElementById("second_input").style.borderLeft =
-          "5px solid #fff";
-        document.getElementById("input_container3").blur();
-        document.getElementById("third_input").style.borderLeft =
-          "5px solid #fff";
-
-        // boxShadow
-        document.getElementById("first_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("second_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
-        document.getElementById("third_input").style.boxShadow =
-          "          0 .125rem .25rem rgba(0,0,0,.075)";
+      function InputsHandler(item) {
+        // Activating the input field on foucs
+        item.getElementsByTagName("input")[0].focus()
+        // Getting all types of inputs on currentpage
+        let activeInput = document.getElementsByClassName("active_input");
+        let inActive = document.getElementsByClassName("general_input");
+        let filledInput = document.getElementsByClassName("filled_input");
+        // For switching classes of filled inputs on basis of values
+        if (filledInput.length) {
+          for (let i = 0; i < filledInput.length; i++) {
+            let valueCheckFilled = filledInput[i].getElementsByTagName("input")[0].value;
+            if (!valueCheckFilled) {
+              filledInput[i].classList.add('general_input')
+              filledInput[i].classList.remove('filled_input')
+            }
+  
+          }
+  
+        }
+  
+        if (activeInput.length) {
+          for (let i = 0; i < activeInput.length; i++) {
+            let valueCheckActive = activeInput[i].getElementsByTagName("input")[0].value;
+            if (!valueCheckActive) {
+              activeInput[i].classList.add("general_input");
+              activeInput[i].classList.remove("active_input");
+            }
+            else {
+              activeInput[i].classList.add("filled_input");
+              activeInput[i].classList.remove("active_input");
+            }
+  
+          }
+  
+        }
+        if (item.classList.toString().indexOf("general_input") !== -1) {
+          item.classList.remove("general_input")
+          item.classList.add("active_input")
+        }
+        if (item.classList.toString().indexOf("filled_input") !== -1) {
+          item.classList.remove("filled_input")
+          item.classList.add("active_input")
+        }
       }
     </script>
   </body>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>FORGET</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <!-- bootsrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- jquery cloudflare  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="auth_page_container container d-flex align-items-center">
+
+        <div class="col-lg-6 col-xl-5 white_container d-flex justify-content-center login_page_container position-relative">
+            <!-- styling for right side absolute div -->
+            <div class="forget_left_absolute d-none d-lg-flex">
+                
+            </div>
+          <img src="./assets/images/Lux_half_split.png" class="split-image d-none d-lg-flex "/>
+            <!-- styling for right side absolute div -->
+            <div class="col-lg-10">
+                <img class="logo" src="./assets/images/LoveLuxHeart.png" />
+                <div class="modal_heading"><span>FORGET</span></div>
+                <form>
+                    <div class="general_input mb-1" onclick="InputsHandler(this)">
+                        <div class="label_div">
+                            <label for="email">EMAIL</label>
+                        </div>
+                        <input type="email" id="email" />
+                    </div>
+
+                    <div class="custom_submit_action " style="margin-top: 57px;">
+                        <span>LOGIN</span>
+                        <img src="./assets/images/login.png" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script>
+        function InputsHandler(item) {
+            // Activating the input field on foucs
+            item.getElementsByTagName("input")[0].focus()
+            // Getting all types of inputs on currentpage
+            let activeInput = document.getElementsByClassName("active_input");
+            let inActive = document.getElementsByClassName("general_input");
+            let filledInput = document.getElementsByClassName("filled_input");
+            // For switching classes of filled inputs on basis of values
+            if (filledInput.length) {
+                for (let i = 0; i < filledInput.length; i++) {
+                    let valueCheckFilled = filledInput[i].getElementsByTagName("input")[0].value;
+                    if (!valueCheckFilled) {
+                        filledInput[i].classList.add('general_input')
+                        filledInput[i].classList.remove('filled_input')
+                    }
+
+                }
+
+            }
+
+            if (activeInput.length) {
+                for (let i = 0; i < activeInput.length; i++) {
+                    let valueCheckActive = activeInput[i].getElementsByTagName("input")[0].value;
+                    if (!valueCheckActive) {
+                        activeInput[i].classList.add("general_input");
+                        activeInput[i].classList.remove("active_input");
+                    }
+                    else {
+                        activeInput[i].classList.add("filled_input");
+                        activeInput[i].classList.remove("active_input");
+                    }
+
+                }
+
+            }
+            if (item.classList.toString().indexOf("general_input") !== -1) {
+                item.classList.remove("general_input")
+                item.classList.add("active_input")
+            }
+            if (item.classList.toString().indexOf("filled_input") !== -1) {
+                item.classList.remove("filled_input")
+                item.classList.add("active_input")
+            }
+        }
+    </script>
+</body>
+
+</html>
